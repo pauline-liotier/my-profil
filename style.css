@@ -1,0 +1,99 @@
+/*colors and fonts */
+
+body{
+	color: rgb(30, 30, 30);
+	background-color: #DADDFC;
+	font-size: 17px;
+	font-family: Lorem ipsum dolor sit amet;
+}
+
+h1, h2{
+	color: rgb(10, 10, 10);
+	font-family: cursive;
+}
+h1{
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	color: #3D2C8D;
+	font-weight: bolder;
+	font-size: 16px;
+}
+a:hover{
+		color: #FFCC1D;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;	
+}
+
+.btn-blue {
+	background-color: #3D2C8D;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #FFCC1D;
+	color: #3D2C8D;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+} 
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+}
+.list-inline i:hover{
+	color: #FFCC1D
+}
+
+/* Design adjustments using id */
+#introduction p {
+	margin-bottom: 30px;
+}
+
+#imgcircle {
+	border-radius: 50%;
+	border: 6px solid #3D2C8D;
+}
